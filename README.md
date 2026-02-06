@@ -1,3 +1,9 @@
+# @inkarnaterpg/react-toggle
+[![NPM version](https://img.shields.io/npm/v/@inkarnaterpg/react-toggle.svg)](https://www.npmjs.org/package/@inkarnaterpg/react-toggle)
+
+This fork fixes how the package incorrectly states whether it's a CJS or ESM package, leading to runtime errors when
+using Vite 8 because rolldown guesses incorrectly.
+
 An elegant, accessible toggle component for React. Also a glorified checkbox.
 
 See [usage and examples](http://aaronshaf.github.io/react-toggle/).
@@ -37,17 +43,10 @@ import "react-toggle/style.css" // for ES6 modules
 require("react-toggle/style.css") // for CommonJS
 ```
 
-## Development
-
-```javascript
-npm install
-npm run dev
-```
-
 ## Build
 
 ```javascript
-npm run build
+pnpm run build
 ```
 
 ## License
